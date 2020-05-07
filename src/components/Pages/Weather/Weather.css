@@ -1,0 +1,11 @@
+.WeatherApp {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E9F0FE;
+    padding-top: 30px;
+}
+.WeatherApp h5 {
+    color: #76787e;
+}

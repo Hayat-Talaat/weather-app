@@ -1,0 +1,23 @@
+.HomeTextContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.HomeText {
+    color: #E9F0FE;
+    display: flex;
+    justify-content: center;
+}
+
+.HomeText h1 {
+    font-size: 80px;
+}
+
+.HelloDot {
+    color: #dc3333;
+}
+
+
+

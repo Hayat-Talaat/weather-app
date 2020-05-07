@@ -1,0 +1,43 @@
+.sidebar-fixed {
+  height: 100%;
+  left: 0;
+  position: fixed;
+  width: 65px;
+  z-index: 10;
+  top: 20%;
+}
+
+.right-nav {
+  height: 45px;
+  position: fixed;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: left top 0;
+}
+.right-nav > ul {
+  height: 100%;
+  margin: 0 auto;
+  list-style: none;
+}
+.right-nav li {
+  float: right;
+  height: 100%;
+  line-height: 60px;
+  margin: 0 20px;
+}
+.right-nav a {
+  color: #ffffff;
+    font-size: 16px;
+  text-transform: uppercase;
+}
+.right-nav a:hover {
+    color: #76787e;
+    text-decoration: none;
+}
+ul li::before {
+  content: "\2022";
+  color: #dc3333;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}

@@ -1,0 +1,42 @@
+/* Form */
+.rm-px-left {
+    padding-left: 0 !important;
+}
+
+.rm-px-right {
+    padding-right: 0 !important;
+}
+
+.getWeather Button {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
+
+.getWeather .city {
+    border-radius: 5px 0 0px 5px;
+    border: none;
+}
+
+/* Weather */
+.temperature {
+    font-size: 130px;
+    padding-top: 20px;
+    font-weight: lighter;
+}
+.main {
+    color: #76787e;
+    font-size: 18px;
+}
+
+.min-max {
+    font-size: 20px;
+}
+.min-max-slach {
+    color: #76787e;
+}
+.description {
+    padding-top: 18px;
+    font-size: 20px;
+    font-weight: lighter;
+}
